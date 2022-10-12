@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="container-lg">
+    <div class="sidenav">
+        <div class="login-main-text">
+            <h1>READY</h1><br>
+            <h2>to Register</h2>
+            <p>register from here to access.</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+                <form action="doregister" method="post" >
+
+                      <div class="form-group">
+                          <label> USERNAME </label><br>
+                          <input name="username" type="text" class="form-control" placeholder="Username">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label> PASSWORD </label><br>
+                          <input name="password" type="password" class="form-control" placeholder="Password">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label> EMAIL </label><br>
+                          <input name="email" type="text" class="form-control" placeholder="E-mail">
+                      </div><br>
+
+                    <div class="form-group">
+                        <label> GENDER </label><br>
+                        <select name="gender" class="form-select  ">
+                            <option value="FEMALE">Female</option>
+                            <option value="MALE">Male</option>
+                        </select>
+                    </div><br>
+
+                    <div class="form-group ">
+                        <label> BIRTHDAY </label><br>
+                        <input  name="dob" type="date" class="form-control" placeholder="E-mail">
+                    </div><br>
+
+                      <div class="form-group">
+                          <label> NAME </label><br>
+                          <input name="name" type="text" class="form-control" placeholder="First name">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label> SURNAME </label><br>
+                          <input name="surname" type="text" class="form-control" placeholder="Last name">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label> ADDRESS </label><br>
+                          <input name="address" type="text" class="form-control" placeholder="Address">
+                      </div><br>
+
+                      <div class="form-group">
+                          <label> TELEPHONE </label><br>
+                          <input name="telephone" type="text" class="form-control" placeholder="Telephone">
+                      </div><br>
+
+                    <a  type="button"  href="/login" class="btn btn-secondary" id="back">Go Back</a>
+                    <button type="submit" class="btn btn-black">Register</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+</html>

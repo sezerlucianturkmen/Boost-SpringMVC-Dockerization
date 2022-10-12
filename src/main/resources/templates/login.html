@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="container-lg">
+    <div class="sidenav">
+        <div class="login-main-text">
+            <h1>WELCOME</h1><br>
+            <h2>to Login Page</h2>
+            <p>Login or register from here to access.</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+                <form action="dologin" method="post" >
+                    <div class="form-group">
+                        <label> USERNAME </label><br>
+                        <input name="username" type="text" class="form-control" placeholder="Username">
+                    </div><br><br>
+                    <div class="form-group">
+                        <label> PASSWORD </label><br>
+                        <input name="password" type="password" class="form-control" placeholder="Password">
+                    </div><br>
+                    <button type="submit" class="btn btn-black">Login</button>
+                    <a  type="button"  href="/register" class="btn btn-secondary" id="register">Register</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script  src="../static/js/login.js"></script>
+</body>
+</html>

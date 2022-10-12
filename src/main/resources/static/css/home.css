@@ -1,0 +1,51 @@
+.sidenavfemale {
+    background-color: #FFB6C1;
+    overflow-x: hidden;
+    padding: 30px;
+
+}
+.sidenavmale {
+    background-color: LightBlue;
+    overflow-x: hidden;
+    padding: 30px;
+
+}
+
+.mainfemale {
+    background-color: #F9E0EE;
+    padding: 0px 30px;
+    left-margin:30px !important;
+}
+.mainmale {
+    background-color: #E0F1F9;
+    padding: 0px 30px;
+    left-margin:30px !important;
+}
+.card{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    height:500pt
+
+}
+.fonts{
+    font-size:15px;
+}
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.photos{
+padding-top:30px
+}
